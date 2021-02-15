@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="/script.js" defer></script>
+<!--   <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  
+  <meta charset="utf-8" />
+</head>
+
+<body>
+
+  <div id="app">
+    <!--   nav   -->
+    <nav class="nav">
+      <h1 class="doctor_name">Katherine Lawrence, M.D.</h1>
+      <div class="nav__links">
+        
+<!--    <a class="link" href="#">About Noom</a>
+        <a class="link" href="#">Engagement</a>
+        <a class="link" href="#">Algorithm</a> -->
+      </div>
+    </nav>
+    <!--   header   -->
+    
+    <header class="header">
+      <div class="header__info">
+        <h1 class="header__title">dDPP Provider Dashboard</h1>
+      </div>
+    </header>
+    <main class="main">
+      <h2 class="main__title">Patient dDPP Data</h2>
+      
+      
+      <!-- article -->
+<!--       <section class="top_article clearfix">
+      <article class="general_info"> -->
+        <div class="patient_name">
+          <h1 class ="big_name">John Doe</h1>
+        </div>
+      
+      
+      
+<!--         Demographic info -->
+      
+        <div class="info">
+          <p id="age"> 45 years</p>
+        </div>
+      
+       <div class="info">
+          <p id="ethnic"> Ethnicity</p>
+        </div>
+      
+      <div class="info">
+          <p id="last-update"> Last date updated</p>
+        </div>
+      
+      
+      <!--         General ddpp info table -->
+      
+      <table id="customers">
+  <tr>
+    <th><div class="general_title">
+          <h1 id="ddpp_enrolled">DDPP Enrolled</h1>
+        </div></th>
+    <td><div class="info">
+          <p id="noom_start">DDPP enrolled date</p>
+        </div></td>
+  </tr>
+  <tr>
+        <th><div class="general_title">
+          <h1 id="noom_date">Noom Start Date</h1>
+        </div></th>
+    <td><div class="info">
+          <p id="noom_start_date">Noom start date</p>
+        </div></td>
+  </tr>
+  <tr>
+      <th><div class="general_title">
+          <h1 id="device">Devices Provided</h1>
+        </div></th>
+    <td><div class="info">
+          <p id="device_name">Fitbit, A1C, scale</p>
+        </div></td>
+  </tr>
+  <tr>
+    <th><div class="general_title">
+          <h1 id="coach">Coach Name</h1>
+        </div></th>
+    <td><div class="info">
+          <p id="coach_name">Joan Doe</p>
+        </div></td>
+  </tr>
+</table>
+      
+      
+      
+    <!--         The DDPP General info at top-->
+        
+      
+<!--       <article class="general">
+        <div class="general_title">
+          <h1 id="ddpp_enrolled1">DDPP Enrolled</h1>
+        </div>
+
+        <div class="info">
+          <p id="ddpp_enrolled_date1">DDPP Enrolled Date</p>
+        </div>
+        </article>
+          
+        
+      <article class="general">
+        <div class="general_title">
+          <h1 id="noom_start1">Noom Start Date</h1>
+        </div>
+
+        <div class="info">
+          <p id="noom_start_date1">noom start date</p>
+        </div>
+        </article>
+      
+      
+      
+      <article class="general">
+        <div class="general_title">
+          <h1 id="device1">Devices Provided</h1>
+      
+        </div>
+
+        <div class="info">
+          <p id="device_name1">Fitbit, A1c, scale</p>
+        </div>
+        </article>
+      
+      
+      <article class="general">
+        <div class="general_title">
+          <h1 id="coach1">Coach Name</h1>
+        </div>
+
+        <div class="info">
+          <p id="coach_name1"> Joan Doe </p>
+        </div>
+        </article>
+      
+      
+            
+      <article class="general">
+        <div class="general_title">
+          <h1 id="current_week">Current Week</h1>
+        </div>
+
+        <div class="info">
+          <p id="week_num"> 25 </p>
+        </div>
+        </article> -->
+      
+      
+      
+<!--Overall Engagement Information -->
+      
+      
+<!--       <section class="engagement_overview1">
+        
+        <article class="overview">
+          <div class="overview__content">
+            <header>
+              <h2 class="overview__title">Overall Engagement</h2>
+            </header>
+            <div class="data">
+            <p id="score1">High</p>
+            </div>
+          </div>
+        </article>
+        
+        
+          <article class="overview">
+            <div class="overview__content">
+              <header>
+                <h2 class="overview_title">Engagement Breakdown</h2>
+              </header>
+              <div class="data">
+                <p id="high_num">High</p>
+                <p id="low_num">Low</p>
+              </div>
+            </div>
+          </article>
+        
+        
+        
+           <article class="overview">
+            <div class="overview__content">
+              <header>
+                <h2 class="overview_title">Algorithm in Use</h2>
+              </header>
+              <div class="data">
+                <p id="algorithm_name1">BabyStep</p>
+              </div>
+            </div>
+          </article>
+        
+        
+      </section> -->
+        
+      
+<table id="engagement_overview">
+  <tr>
+    <th>Overall Engagement Score</th>
+    <th>Engagement Breakdown</th>
+    <th>Algorithm in Use</th>
+  </tr>
+  <tr>
+    <td id="score">High</td>
+    <td id="high_score_percent">High 90% Low 10%</td>
+    <td id="algorithm_name">Baby Steps</td>
+  </tr>
+</table>
+      
+      
+<!--Noom Data Menu-->
+
+      
+<table id="engagement_data">
+  <tr>
+    <th><header>
+              <h2 class="article__title">Avg Weekly Cal Budget / Intake</h2>
+            </header></th>
+    <th><header>
+                <h2 class="article__title">Weekly Step Count</h2>
+              </header></th>
+    <th><header>
+              <h2 class="article__title">Weekly Exercise Time (min)</h2>
+            </header></th>
+    <th><header>
+              <h2 class="article__title">Noom Weight / Log Date</h2>
+            </header></th>
+    <th><header>
+              <h2 class="article__title">30-day Weight Change</h2>
+            </header></th>
+    <th><header>
+                <h2 class="article__title">Noom A1c</h2>
+              </header></th>
+    <th><header>
+                <h2 class="article__title">Weight / Height</h2>
+              </header></th>
+  </tr>
+  <tr>
+    <td>    <div class="data">
+              <p id="budget">15000</p>
+              <p id="intake">16000</p>
+            </div></td>
+    <td> <div class="data">
+                <p id="step_count"> 10000</p>
+              </div></td>
+    <td><div class="data">
+              <p id="exercise_time">300</p>
+            </div></td>
+    <td>            <div class="data">
+              <p id="weight">200</p>
+              <p id="weight_date">09/20/2020
+              </p>
+            </div></td>
+    <td>            <div class="data">
+              <p id="weight_change">5</p>
+            </div></td>
+      <td>            <div class="data">
+                <p id="a1c">5.8</p>
+                <p id="a1c_date">09/20/2020</p>
+              </div></td>
+      <td>             <div class="data">
+                <p id="bmi">28</p>
+              </div></td>
+  </tr>
+</table>
+
+      
+      <!--  Noom Data Table (Old)  -->
+      
+      
+<!--   <section class="noom_data_menu"> -->
+        <!--    article     -->
+<!--         <article class="article">
+          <div class="article__content">
+            <header>
+              <h2 class="article__title">Avg Weekly Cal Budget / Intake</h2>
+            </header>
+            <div class="data">
+              <p id="budget1">15000</p>
+              <p id="intake1">16000</p>
+            </div>
+          </div>
+        </article> -->
+        
+        
+        
+        <!--    article     -->
+<!--         <article class="article">
+            <div class="article__content">
+              <header>
+                <h2 class="article__title">Weekly Step Count</h2>
+              </header>
+              <div class="data">
+                <p id="step_count1"> 10000</p>
+              </div>
+            </div>
+          </article> -->
+        
+        
+        
+        
+        <!--    article    -->
+<!--         <article class="article">
+          <div class="article__content">
+            <header>
+              <h2 class="article__title">Weekly Exercise Time (min)</h2>
+            </header>
+            <div class="data">
+              <p id="exercise_time1">300</p>
+            </div>
+          </div>
+        </article> -->
+        
+        
+        
+        
+        <!--    article    -->
+<!--         <article class="article">
+          <div class="article__content">
+            <header>
+              <h2 class="article__title">Noom Weight / Log Date</h2>
+            </header>
+            <div class="data">
+              <p id="weight1">200</p>
+              <p id="weight_date1">09/20/2020
+              </p>
+            </div>
+          </div>
+        </article> -->
+        
+        
+        
+        
+        <!--    article    -->
+<!--         <article class="article">
+          <div class="article__content">
+            <header>
+              <h2 class="article__title">30-day Weight Change</h2>
+            </header>
+            <div class="data">
+              <p id="weight_change1">5</p>
+            </div>
+          </div>
+        </article> -->
+        
+        
+        
+        
+        <!--    article    -->
+<!--         <article class="article">
+            <div class="article__content">
+              <header>
+                <h2 class="article__title">Noom A1c</h2>
+              </header>
+              <div class="data">
+                <p id="a1c1">5.8</p>
+                <p id="a1c_date1">09/20/2020</p>
+              </div>
+            </div>
+          </article> -->
+      
+      
+        <!--    article    -->
+<!--         <article class="article">
+            <div class="article__content">
+              <header>
+                <h2 class="article__title">Weight / Height</h2>
+              </header>
+              <div class="data">
+                <p id="bmi1">28</p>
+              </div>
+            </div>
+          </article>
+      
+    </section> -->
+      
+      
+      
+      
+      
+<!--  Pass/Fail table   -->
+     
+<table id="overall_engagement">
+  <tr>
+    <th>Week</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+    <th>10</th>
+    <th>11</th>
+    <th>12</th>
+    <th>13</th>
+    <th>14</th>
+    <th>15</th>
+    <th>16</th>
+    <th>17</th>
+    <th>18</th>
+    <th>19</th>
+    <th>20</th>
+    <th>21</th>
+    <th>22</th>
+    <th>23</th>
+    <th>24</th>
+    <th>25</th>
+    <th>26</th>
+    <th>27</th>
+    <th>28</th>
+    <th>29</th>
+    <th>30</th>
+    <th>31</th>
+    <th>32</th>
+    <th>33</th>
+    <th>34</th>
+    <th>35</th>
+    <th>36</th>
+    <th>37</th>
+    <th>38</th>
+    <th>39</th>
+    <th>40</th>
+    <th>41</th>
+    <th>42</th>
+    <th>43</th>
+    <th>44</th>
+    <th>45</th>
+    <th>46</th>
+    <th>47</th>
+    <th>48</th>
+    <th>49</th>
+    <th>50</th>
+    <th>51</th>
+    <th>52</th>
+  </tr>
+  <tr>
+    <th>High/Low</th>
+    <th></th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <th></th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <th></th>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td id ="w1">H</td>
+    <td id ="w2">L</td>
+    <td id ="w3">H</td>
+    <td id ="w4">H</td>
+    <td id ="w5">L</td>
+    <td id ="w6">H</td>
+    <td id ="w7">H</td>
+    <td id ="w8">H</td>
+    <td id ="w9">L</td>
+    <td id ="w10">H</td>
+    <td id ="w11">H</td>
+    <td id ="w12">L</td>
+    <td id ="w13">H</td>
+    <td id ="w14">H</td>
+  </tr>
+
+</table>
+
+
+
+  
+      <!--    sms box    -->
+      <section>
+        
+        <div class="typeArea">
+            <input type="text" id="toSend" name="toSend" placeholder="Type a message..."> 
+            
+        </div>
+        
+        <input type="submit" id="submitBtn" value="Send"
+                onclick="submitItem()"> 
+        
+        <!--    list to record messages that were sent    -->
+<!--         <div id="showArea">
+            <p id="prompt">Sent SMS:</p>
+            <div id="sms-list">
+            </div>
+        </div> -->
+        
+        
+        </section>
+      
+    </main>
+  </div>
+  
+<!--   <button onclick="myFunction()">Try it</button>
+  <button onclick="myFunction1()">Try it now</button> -->
+
+</body>
+
+</html>
